@@ -1,35 +1,33 @@
-.bellota-light {
+* {
   font-family: "Bellota", system-ui;
+}
+
+.bellota-light {
   font-weight: 300;
   font-style: normal;
 }
 
 .bellota-regular {
-  font-family: "Bellota", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 .bellota-bold {
-  font-family: "Bellota", system-ui;
   font-weight: 700;
   font-style: normal;
 }
 
 .bellota-light-italic {
-  font-family: "Bellota", system-ui;
   font-weight: 300;
   font-style: italic;
 }
 
 .bellota-regular-italic {
-  font-family: "Bellota", system-ui;
   font-weight: 400;
   font-style: italic;
 }
 
 .bellota-bold-italic {
-  font-family: "Bellota", system-ui;
   font-weight: 700;
   font-style: italic;
 }
