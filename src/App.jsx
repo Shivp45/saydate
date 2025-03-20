@@ -24,8 +24,8 @@
 
 import { useState } from 'react';
 import Nav from "./components/nav";
-import img from './assets/bgimage.jpg';
-import mbimg from './assets/mobilebg.jpg';
+import img from './assets/friendlandbg.jpg';
+import mbimg from './assets/mbview.jpg';
 import './App.css';
 import Login from "./components/login";  // Import with a capital letter
 import Card from "./components/Mycard"
@@ -45,10 +45,10 @@ function App() {
       <div id='landPage'>
         <img src={window.innerWidth <= 768 ? mbimg : img} 
              alt="Friends" 
-             className='vignette absolute top-0 left-0 opacity-65 -z-10 w-screen h-auto' 
+             className='vignette absolute top-0 left-0 opacity-85 -z-10 w-screen h-auto' 
         />
       </div>
-      <div className='place-content-around rounded-t-4xl flex w-screen h-screen bg-[#FB8D93] gap-6 justify-center items-center'>
+      <div className='place-content-around rounded-t-4xl flex w-screen h-screen bg-[#000000] gap-6 justify-center items-center'>
         <Card title = "What is SayDate" discription = "The fun and safe way to connect with like-minded people. Set a date when both of you are ready"/>
         <Card title = "Why choose SayDate?" discription = "" className="bg-[#A35FF7]"/>
         <Card title = "About"/>
